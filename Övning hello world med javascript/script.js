@@ -7,9 +7,9 @@ var list = document.createElement("ul"); //Skapar ul element i variabel list
 
 for (var i = 0; i < listItems.length; i++) { //For loop för att loopa listan
 
-  var li = document.createElement("li"); //Skapar li element
-  li.textContent = listItems[i];
-  list.appendChild(li);
+  var li = document.createElement("li"); //Skapar li element i variabel li
+  li.textContent = listItems[i]; //Lägger till texten i listItems i li listan
+  list.appendChild(li); // lägger in li i ul variabeln och därmed lägger till listan
 }
 
 titleMyName.textContent = "Love Rumar Karlquist"; //Text innehåll av h1
@@ -22,4 +22,4 @@ document.body.appendChild(description);
 
 document.body.appendChild(list); //Lägger till elementet till body
 
-console.log("Hello World");
+console.log("Hello World"); //Skriver hello worl till konsollen

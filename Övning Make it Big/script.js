@@ -1,9 +1,4 @@
 function turnToCapitalLetters() {
-    var input = document.getElementById("textInput"); //Få input elementet med hjälp av ID och gör till variabeln input
-
-    var userInput = input.value; //Få vad användaren skrev och gör till variabeln userInput
-
-    var capitalizedText = userInput.toUpperCase(); //Gör om userInput till stora bokstäver och sparas i ny variabel
-
-    input.value = capitalizedText; //Byter ut inputen till samma text men med stora bokstäver
+    var input = document.getElementById("textInput"); //Hämtar id och gör en variabe 
+    input.value = input.value.toUpperCase(); //Tar värdet av det använaren skrev och gör om det till stora bokstäver
 }
