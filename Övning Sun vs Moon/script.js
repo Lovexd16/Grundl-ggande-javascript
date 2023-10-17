@@ -1,3 +1,5 @@
+document.body.style.backgroundColor = "black";
+
 const img = document.getElementById("images"); //Hämtar HTML element med ID och gör till variabel img
 
 let toggle = true; //Används för att se om bilden som visas är solen eller månen
