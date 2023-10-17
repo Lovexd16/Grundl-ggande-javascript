@@ -5,12 +5,12 @@ let toggle = true;
 
 convertToggleBtn.addEventListener("click", function() {
 
-    toggle =! toggle;
+    toggle =! toggle; //Byter mellan true och false för att byta mellan lower och upper case
     if (toggle) {
-        input.value = input.value.toLowerCase();
+        input.value = input.value.toLowerCase(); //gör om till lower case
 
     } else {
-        input.value = input.value.toUpperCase(); //Tar värdet av det använaren skrev och gör om det till stora bokstäver
+        input.value = input.value.toUpperCase(); //gör om till upper case
     }
     
 });
