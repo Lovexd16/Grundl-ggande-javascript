@@ -11,7 +11,7 @@ img.addEventListener("click", function() { //Lyssnar efter klick
         img.src = "sun.jpg"; //Om toggle är true blir det sol
 
     } else {
-        img.src ="moon.jpg"; //Om toggle är false blir det måne
+        img.src = "moon.jpg"; //Om toggle är false blir det måne 
     }
 
 });
