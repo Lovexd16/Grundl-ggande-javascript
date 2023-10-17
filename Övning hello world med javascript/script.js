@@ -1,12 +1,12 @@
-var titleMyName = document.createElement("h1"); //Skapar h1 element
+var titleMyName = document.createElement("h1"); //Skapar h1 element i variabel titleMyName
 
-var description = document.createElement("p1"); //Skapar p1 element
+var description = document.createElement("p1"); //Skapar p1 element i varabel description
 
-var listItems = ["Laga mat", "Köra bil", "League"]; //Skapar items till lista
-var list = document.createElement("ul"); //Skapar ul element
+var listItems = ["Laga mat", "Köra bil", "League"]; //Skapar items till lista med array i variabel listItems
+var list = document.createElement("ul"); //Skapar ul element i variabel list
 
-for (var i = 0; i < listItems.length; i++) {
-  //For loop för att loopa listan
+for (var i = 0; i < listItems.length; i++) { //For loop för att loopa listan
+
   var li = document.createElement("li"); //Skapar li element
   li.textContent = listItems[i];
   list.appendChild(li);
