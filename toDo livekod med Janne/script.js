@@ -87,7 +87,6 @@ function printList() {
             console.log("event", event.target.id);
             console.log("Klick på item");
 
-            thingsToDo.splice(thingsToDo.indexOf(event.target.id), 1) //indexOf letar upp indexsiffran för det vi klickar på. 1 är hur många steg vi ska ta bort
             console.log("efter splice", thingsToDo);
             printList();
         })
